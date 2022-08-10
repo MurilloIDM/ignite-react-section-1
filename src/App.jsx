@@ -1,10 +1,9 @@
-import { Post } from "./Post"
+import { Header } from "./components/Header";
+
+import "./global.css";
 
 export function App() {
   return (
-    <Post
-      author="Murillo Isidoro de Medeiros"
-      content="Um pequeno teto"
-    />
+    <Header />
   )
 }
